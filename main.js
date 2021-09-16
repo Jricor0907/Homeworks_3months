@@ -39,8 +39,8 @@ const students = [
       score_2: 45,
     },
   ];
-  const degrees = ["A", "B", "C", "D", "E"];
-  const pl = [91, 81, 71, 61, 51];
+  const degrees = [`A`, `B`, `C`, `D`, `E`];
+  const passingLimit = [91, 81, 71, 61, 51];
   const total = students.map((student) => student.score_1 + student.score_2);
   console.log(total);
   const check = function () {
@@ -56,4 +56,4 @@ const students = [
         deg = "failed";
       }
     };
-    check();
+check();
